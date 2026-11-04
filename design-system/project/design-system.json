@@ -1,0 +1,138 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-04T16:50:46.408Z"
+  },
+  "title": "Решись Авиа",
+  "namespace": "ReshisAvia",
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18"
+    },
+    {
+      "name": "react-dom",
+      "version": "18"
+    }
+  ],
+  "sections": {},
+  "groups": [
+    "Logos",
+    "Images"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "s",
+      "order": [
+        "logo-mark.png",
+        "app-icon.png"
+      ],
+      "files": {
+        "logo-mark.png": {
+          "name": "logo-mark.png",
+          "blob": "9306c22cdcc64ff7b9f46a0e3c728ddf",
+          "size": 8998,
+          "type": "image/png"
+        },
+        "app-icon.png": {
+          "name": "app-icon.png",
+          "blob": "df4d162f40b38efefe5e41b9062331ee",
+          "size": 6160,
+          "type": "image/png"
+        }
+      }
+    },
+    "Images": {
+      "name": "Images",
+      "tile": "m",
+      "order": [
+        "hero.webp",
+        "aer.webp",
+        "led.webp",
+        "kgd.webp",
+        "ovb.webp",
+        "mrv.webp",
+        "landing.webp",
+        "step-1.webp",
+        "step-2.webp",
+        "step-3.webp"
+      ],
+      "files": {
+        "hero.webp": {
+          "name": "hero.webp",
+          "blob": "08db49c2899f61b5591c42b95ff74f38",
+          "size": 36850,
+          "type": "image/webp"
+        },
+        "aer.webp": {
+          "name": "aer.webp",
+          "blob": "67269fa08b53f3895e3cda46110ef900",
+          "size": 76272,
+          "type": "image/webp"
+        },
+        "led.webp": {
+          "name": "led.webp",
+          "blob": "989fce0586f2a72d519492734ccf5a62",
+          "size": 45040,
+          "type": "image/webp"
+        },
+        "kgd.webp": {
+          "name": "kgd.webp",
+          "blob": "486e95dd43aca88b02ccce5668d3f9d4",
+          "size": 62082,
+          "type": "image/webp"
+        },
+        "ovb.webp": {
+          "name": "ovb.webp",
+          "blob": "ea0217c78239c46ce26b277bd00db7b6",
+          "size": 67596,
+          "type": "image/webp"
+        },
+        "mrv.webp": {
+          "name": "mrv.webp",
+          "blob": "dee68978cfdd4956bdeb623b4798507a",
+          "size": 73842,
+          "type": "image/webp"
+        },
+        "landing.webp": {
+          "name": "landing.webp",
+          "blob": "8dbfd57cc59b0ed7961c85cd30a1bac3",
+          "size": 47446,
+          "type": "image/webp"
+        },
+        "step-1.webp": {
+          "name": "step-1.webp",
+          "blob": "4fb08ba5fc75acdb27d46dfd34f9f116",
+          "size": 13552,
+          "type": "image/webp"
+        },
+        "step-2.webp": {
+          "name": "step-2.webp",
+          "blob": "e0e277365737a9abd4bf651ac727aa47",
+          "size": 12766,
+          "type": "image/webp"
+        },
+        "step-3.webp": {
+          "name": "step-3.webp",
+          "blob": "b48c13b53825ea3de0741aa687550ff4",
+          "size": 14254,
+          "type": "image/webp"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Claude",
+    "via": "Claude Code",
+    "at": "2026-11-04T18:19:59.155Z",
+    "note": "Экраны получают данные через API"
+  }
+}

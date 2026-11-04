@@ -1,0 +1,33 @@
+<!-- @dsCard group="Результат" height=90 subtitle="Загрузка рейса" -->
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>LoadBar</title></head>
+<body>
+<div id="root" class="ra-preview-wide"></div>
+<script>
+  var R = window.ReshisAvia, h = React.createElement, S = React.useState;
+  var ROUTES = [
+    {code:'MOW-AER',city:'Сочи',basePrice:9000,sensitivity:.141,priceMin:5400,priceMax:18000},
+    {code:'MOW-LED',city:'Санкт-Петербург',basePrice:5500,sensitivity:.294,priceMin:3300,priceMax:11000},
+    {code:'MOW-KGD',city:'Калининград',basePrice:7500,sensitivity:.0957,priceMin:4500,priceMax:15000},
+    {code:'MOW-OVB',city:'Новосибирск',basePrice:12000,sensitivity:.0312,priceMin:7200,priceMax:24000},
+    {code:'MOW-MRV',city:'Минеральные Воды',basePrice:8000,sensitivity:.0653,priceMin:4800,priceMax:16000}];
+  // прогноз MOW-AER на 1 июня и MOW-KGD на 26 июня при базовой цене
+  var FIT = [712,738,763,784,803,821,839,870,913], OVER = [415,434,449,459,468,476,484,505,532];
+  var IMG = {
+"hero": "/_blob/08db49c2899f61b5591c42b95ff74f38",
+"MOW-AER": "/_blob/67269fa08b53f3895e3cda46110ef900",
+"MOW-LED": "/_blob/989fce0586f2a72d519492734ccf5a62",
+"MOW-KGD": "/_blob/486e95dd43aca88b02ccce5668d3f9d4",
+"MOW-OVB": "/_blob/ea0217c78239c46ce26b277bd00db7b6",
+"MOW-MRV": "/_blob/dee68978cfdd4956bdeb623b4798507a",
+"landing": "/_blob/8dbfd57cc59b0ed7961c85cd30a1bac3",
+"step1": "/_blob/4fb08ba5fc75acdb27d46dfd34f9f116",
+"step2": "/_blob/e0e277365737a9abd4bf651ac727aa47",
+"step3": "/_blob/b48c13b53825ea3de0741aa687550ff4"
+};
+  function Demo() { return h(R.LoadBar,{seats:900,sold:817}); }
+  ReactDOM.createRoot(document.getElementById('root')).render(h(Demo));
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Решись Авиа — generated from tokens.json */
+:root, [data-theme="light"] {
+  --surface: #f2f4f5;
+  --surface-raised: #ffffff;
+  --surface-muted: #eef0f3;
+  --line: #e1e5ea;
+  --line-strong: #7d8796;
+  --ink: #0c131d;
+  --ink-muted: #566070;
+  --hero: #0a6cf2;
+  --on-hero: #ffffff;
+  --brand: #0a6cf2;
+  --brand-ink: #0a62dc;
+  --brand-soft: #e3efff;
+  --cta: #f0640f;
+  --cta-hover: #db5606;
+  --on-cta: #ffffff;
+  --capacity: #b53f06;
+  --capacity-soft: #ffeadd;
+  --danger: #d01f17;
+  --danger-soft: #fde8e7;
+  --focus: #0a6cf2;
+  --shadow-card: 0 1px 2px rgba(17,33,56,.06), 0 8px 24px -8px rgba(17,33,56,.1);
+  --shadow-pop: 0 12px 40px -8px rgba(17,33,56,.28);
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-card: 20px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 96px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 999px;
+  --font-sans: "Onest", -apple-system, "Segoe UI", sans-serif;
+}

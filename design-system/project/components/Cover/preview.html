@@ -1,0 +1,56 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Решись Авиа</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--surface); color:var(--ink); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; }
+  .blue { fill:var(--hero); }
+  .orange { fill:var(--cta); }
+  .soft { fill:var(--brand-soft); }
+  .white { fill:var(--on-hero); }
+  .sky { fill:var(--brand); }
+  .blk { rx:var(--radius-xl); }
+  .words { position:absolute; left:var(--space-5); right:var(--space-5); bottom:var(--space-5); max-width:440px; }
+  .name { margin:0; font-size:88px; line-height:.95; font-weight:800; letter-spacing:-.03em; color:var(--ink); }
+  .tag { margin:var(--space-2) 0 0 2px; font-size:14px; line-height:20px; color:var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      hero 300×312 в полный рост (цвет, по которому узнают продукт) · cta 128×116 (главная кнопка) · brand-soft 128×96 · surface-raised внутри hero как строка поиска
+  arrangement большая синяя плита и два спутника справа, зазоры space-3, правый край уходит за границу
+  pattern     скругления и столбики: строка «мягкие формы» плюс столбцы графика спроса, 8 штук шагом space-5 на плите
+  scales      стороны кратны space-1, зазор space-3, шаг space-5, углы radius-xl
+-->
+<rect class="blue blk" x="12" y="-12" width="300" height="312" rx="20"/>
+<rect class="orange blk" x="324" y="24" width="168" height="116" rx="20"/>
+<rect class="soft blk" x="324" y="152" width="168" height="112" rx="20"/>
+<rect class="white" x="36" y="44" width="252" height="48" rx="16"/>
+<rect class="sky" x="52" y="60" width="72" height="16" rx="8"/>
+<rect class="white" x="44" y="212" width="20" height="52" rx="6"/>
+<rect class="white" x="68" y="188" width="20" height="76" rx="6"/>
+<rect class="white" x="92" y="164" width="20" height="100" rx="6"/>
+<rect class="white" x="116" y="140" width="20" height="124" rx="6"/>
+<rect class="white" x="140" y="124" width="20" height="140" rx="6"/>
+<rect class="white" x="164" y="148" width="20" height="116" rx="6"/>
+<rect class="white" x="188" y="180" width="20" height="84" rx="6"/>
+<rect class="orange" x="212" y="212" width="20" height="52" rx="6"/>
+<rect class="orange" x="236" y="232" width="20" height="32" rx="6"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">Решись<br>Авиа</h1>
+<p class="tag">Просто узнать, сколько билетов купят.</p>
+</div>
+</div>
+</body>
+</html>
